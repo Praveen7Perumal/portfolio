@@ -1,0 +1,486 @@
+html
+{
+	font-size: 60%;
+	overflow-x: hidden;
+}
+body
+{
+	background-color: black;
+	color: white;
+	background-image: url(praveen10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: hard-light;
+}
+section
+{
+	height: 350px;
+	padding: 10rem 9% 2rem;
+}
+.header
+{
+	height: 30px;
+	border: 1px solid;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 1rem 10px;
+	background-color: chocolate;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+.logo
+{
+	font-size: 2.5rem;
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+}
+.bar a
+{
+	font-size: 1.5rem;
+	color: white;
+	margin-left: 100px;
+	font-weight: 700;
+}
+/*.bar a:hover,
+{
+	color: white;
+}*/
+
+#menu-icon
+{
+	font-size: 3.6rem;
+	color: white;
+	display: none;
+
+}
+.home
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content
+{
+	margin-top: 10px;
+	font-size: 15px;
+	font-weight: 700;
+	margin-right: 50%;
+	gap: 100px;	
+}
+.content h3
+{
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.content h3:nth-of-type(2)
+{
+	margin-bottom: 15px;
+}
+span
+{
+	color: orange;
+}
+.content h1
+{
+	font-size: 5.6rem;
+	font-weight: 700;
+	line-height: 5px;
+}
+.home.image img
+{
+	width: 25vw;
+	animation: float 5s ease infinite;
+
+}/*
+@keyframes float
+{
+	
+	50%{
+		transform: translateY(1.2);
+	}
+}*/
+.content p{
+	font-size: 15px;
+}
+.social-media a{
+	height: 30px;
+	width: 30px;
+	border: px solid;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	border-radius: 50%;
+	font-size: 20px;
+	color: gainsboro;
+	margin: 20px 5px 30px 0;
+	transition: 0.2s ease-in-out;
+
+
+}
+.social-media a:hover
+{
+	background: grey;
+	color: white;
+	box-shadow: 0 0 10px orange;
+}
+.button
+{
+	display: inline-block;
+	padding: 10px 20px ;
+	background: blue;
+	border-radius: 50px;
+	box-shadow: 0 0 10px orange;
+	font-size: 15px;
+	color: white;
+	font-weight: 600;
+	transition: 0.5s ease-in-out;
+
+}
+.button:hover
+{
+	box-shadow: none;
+}
+
+
+/*About*/
+
+
+
+.about
+{
+	height: 400px;
+	width: 60%;
+	border: px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+/*	background: #2F4F4F;*/
+	margin-left: 50px;
+}
+.image img{
+	height: 250px;
+	width: 200px;
+	border: px solid;
+	border-radius: 40%;
+	transition: 0.5s;
+	margin-right: 100px;
+
+}
+.image img:hover
+{
+	transform: scale(1.2);
+/*	border-color: orange;*/
+    box-shadow: 0 0 20px blue;
+}
+.heading
+{
+	text-align: center;
+	font-size: 30px;
+}
+.praveen h2
+{
+	text-align: left;
+	line-height: 1.2;
+	font-size: 30px;
+}
+.praveen h3
+{
+	font-size: 20px;
+	margin-bottom: 30px;
+
+}
+.praveen p
+{
+	font-size: 13px;
+	margin: 0rem 0 0rem;
+}
+.praveen
+{
+	margin-right: 50px;
+	height: 400px;
+	width: 50%;
+	border: px solid;
+}
+
+
+
+/*services*/
+.services h2
+{
+	height: 80px;
+	width: 200px;
+	border: px solid;
+	
+
+}
+
+.services-container
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+
+}
+
+.box
+{
+	height: 200px;
+	width: 170px;
+/*	flex: 1 1 30rem;*/
+	background-color: sandybrown;
+	padding: 30px 32px 60px;
+	border-radius: 30px;
+	text-align: center;
+	border: 2px solid;
+	transition: 0.4s ease-in-out;
+	padding-bottom: 50px;
+
+
+}
+.box h3
+{
+	font-size: 18px;
+}
+.box i
+{
+	font-size: 20px;
+}
+.box:hover
+{
+	background-color: grey;
+	transform: scale(1.1);
+	box-shadow: 0 0 10px white;
+}
+.box span
+{
+	color: blue;
+}
+
+
+
+/*Projects*/
+
+
+.projects
+{
+/*	background-color: #2F4F4F;*/
+}
+.projects h2
+{
+	height: 100px;
+	width: 200px;
+	border: px solid;
+	margin-bottom: 100px;
+}
+
+
+
+.projects-container
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 100px;
+}
+.box1
+{
+	height: 200px;
+	width: 170px;
+	position: relative;
+	border-radius: 30px;
+	box-shadow: 0 0 15px beige ;
+	overflow: hidden;
+	display: flex;
+	border: 3px solid;
+
+}
+.box1 img{
+	width: 100%;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+.box1 img:hover
+{
+	transform: scale(1.1);
+}
+.layer
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(blueviolet, orange);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0px;
+	transform: translateY(95%);
+	transition: 0.6s ease;
+	color: white;
+	font-weight: 600;
+	box-shadow: 5px 5px 5px 5px tomato;
+}
+.layer:hover
+{
+	transform: translateY(0);
+}
+
+
+
+/*contact*/
+
+
+.contact h2
+{
+
+	margin-bottom: 45px;
+	margin-top: 100px;
+}
+.contact form
+{
+
+	max-width: 60rem;
+	margin: 15px auto;
+	text-align: center;
+	margin-bottom: 45px;
+
+}
+.input-box
+{
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 4000;
+}
+.input-box input
+{
+	width: 300px;
+}
+.button
+{
+	margin-top: 30px;
+	cursor: pointer;
+}
+.input-box
+{
+	margin-bottom: 30px;
+}
+
+
+
+@media(max-width: 844px)
+{
+	.bar a
+	{
+		display: none;
+	}
+	#menu-icon 
+	{
+		display: inline-block;
+		margin-left: 70px;
+	}	
+	.header a
+	{
+		margin-left: 70px;
+	}
+	.home
+	{
+		margin-left: 150px;
+	}
+	
+
+}
+@media(max-width: 564px)
+{
+	.services
+	{
+		margin-left: 170px;
+	}
+	.services h2
+	{
+		margin-left: 30px;
+	}
+	.about
+	{
+		margin-left: 140px;
+	}
+	.home
+	{
+		margin-left: 300px;
+	}
+	.contact
+	{
+		margin-left: 200px;
+	}
+	.projects
+	{
+		margin-right: 20%;
+	}
+	.projects h2
+	{
+		margin-left: 200px;
+	}
+
+}
+@media(max-width: 270px)
+{
+
+}
+@media(max-width:450px)
+{
+	.services
+	{
+		margin-left: 280px;
+	}
+	.services h2
+	{
+		margin-left: -100px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
